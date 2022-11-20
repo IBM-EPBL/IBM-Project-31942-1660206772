@@ -8,17 +8,23 @@ A Gesture-based Tool for Sterile Browsing of Radiology Images
 # INTRODUCTION
 In this project we have used Convolutional Neural Network to first train the model on the images of different hand gestures, like showing numbers with fingers as 0,1,2,3,4,5. Then we made a web portal using Flask where user can input any image on which he wants to perform the operations. After uploading the image, our portal uses the integrated webcam to capture the video frame using OpenCV. The gesture captured in the video frame is compared with the Pre-trained model and the gesture is identified. If the prediction is 0 - then images is converted into rectangle, 1 - image is Resized into (200,200), 2 - image is rotated by -45॰, 3 - image is blurred , 
 4-image is Resized into (400,400) , 5-image is converted into grayscale.
-# SOLUTION ARCHITECTURE
+# SOLUTION-ARCHITECTURE
 
 ![WhatsApp Image 2022-11-20 at 10 30 35 PM](https://user-images.githubusercontent.com/88737566/202915381-897b62a9-9adb-424f-8ff8-e4cc89f6736a.jpeg)
 
 # TEAM DETAILS
 TEAM ID - PNT2022TMID15152
+
 TEAM MEMBERS
+
 AJITHA K M(TEAM LEAD)
+
 HARITHA S
+
 DHARSHINI V
+
 AARTHI V
+
 # LINKS
 GITHUB LINK - https://github.com/IBM-EPBL/IBM-Project-31942-1660206772 
 # SCREENSHOTS 
